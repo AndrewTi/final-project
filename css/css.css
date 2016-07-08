@@ -1,0 +1,148 @@
+#circle {
+				width: 120px;
+				height: 120px;
+				background: #7fee1d;
+				-webkit-border-radius: 60px;
+				-moz-border-radius: 60px;
+				border-radius: 60px;
+			}
+
+			#square { 
+				   width: 120px;
+				   height: 120px;
+				   background: #f447ff; 
+				}
+
+				#rectangle { 
+					width: 220px;
+					height: 120px;
+					background: #4da1f7; 
+				}
+
+				#oval {
+			width: 200px;
+			height: 100px;
+			background: #e9337c;
+			-webkit-border-radius: 100px / 50px;
+			-moz-border-radius: 100px / 50px;
+			border-radius: 100px / 50px;
+		}
+
+
+		#triangle{
+		   width: 0; 
+		   height: 0;  
+		   border-bottom: 140px solid #fcf921; 
+		   border-left: 70px solid transparent; 
+		   border-right: 70px solid transparent; 
+		}
+
+		#triangle_down {
+			width: 0;
+			height: 0;
+			border-top: 140px solid #20a3bf;
+			border-left: 70px solid transparent;
+			border-right: 70px solid transparent;
+		}
+
+		#triangle_left {
+			width: 0;
+			height: 0;
+			border-top: 70px solid transparent;
+			border-right: 140px solid #6bbf20;
+			border-bottom: 70px solid transparent;
+		}
+
+
+		#triangle_right{
+			width: 0;
+			height: 0;
+			border-top: 70px solid transparent;
+			border-left: 140px solid #ff5a00;
+			border-bottom: 70px solid transparent;
+		}
+
+
+		#trapezium {
+			height: 0;
+			width: 120px;
+			border-bottom: 120px solid #ec3504;
+			border-left: 60px solid transparent;
+			border-right: 60px solid transparent;
+		}
+
+		#parallelogram {
+				width: 160px;
+				height: 100px;
+				background: #8734f7;
+				-webkit-transform: skew(30deg);
+				-moz-transform: skew(30deg);
+				-o-transform: skew(30deg);
+				transform: skew(30deg);
+			}
+
+		#pentagon {
+		width: 54px;
+		position: relative;
+		border-width: 50px 18px 0;
+		border-style: solid;
+		border-color: #277bab transparent;
+	}
+
+	#pentagon:before {
+		content: "";
+		height: 0;
+		width: 0;
+		position: absolute;
+		top: -85px;
+		left: -18px;
+		border-width: 0 45px 35px;
+		border-style: solid;
+		border-color: transparent transparent #277bab;
+	}
+
+	#hexagon {
+			width: 100px;
+			height: 55px;
+			background: #fc5e5e;
+			position: relative;
+			margin: 10px auto;
+		}
+
+		#hexagon:before {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: -25px;
+			left: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 25px solid #fc5e5e;
+		}
+
+		#hexagon:after {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			bottom: -25px;
+			left: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-top: 25px solid #fc5e5e;
+		}
+
+		#egg {
+    width: 136px;
+    height: 190px;
+    background: #ffc000;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+div	{
+	margin: 50px auto;
+}
